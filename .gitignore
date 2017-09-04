@@ -2,3 +2,9 @@
 /.gitignore
 /.idea/
 /MavenInAction.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+MavenInAction.iml
+src/main/resources/
+src/test/
