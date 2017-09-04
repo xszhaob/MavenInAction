@@ -24,6 +24,7 @@
             换句话说，测试代码中的import JUnit代码
             是没有问题的，但是如果在主代码中用import
             JUnit代码，就会造成编译错误。
+            依赖范围默认是compile，对主代码和测试代码都有效。
             -->
             <scope>test</scope>
         </dependency>
