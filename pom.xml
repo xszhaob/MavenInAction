@@ -11,6 +11,22 @@
     <groupId>bo.zhao.maven</groupId>
     <artifactId>MavenInAction</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>Maven In Action Project</name>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <!--
+            scope表示依赖范围，若依赖范围为test
+            则表示该依赖仅对测试有效。
+            换句话说，测试代码中的import JUnit代码
+            是没有问题的，但是如果在主代码中用import
+            JUnit代码，就会造成编译错误。
+            -->
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
