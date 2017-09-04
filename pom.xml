@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--
+    根元素下的第一个子元素modelVersion指定了当前POM模型的版本，
+    对于Maven2及Maven3来说，它只能是4.0.0
+    -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>bo.zhao.maven</groupId>
+    <artifactId>MavenInAction</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+</project>
