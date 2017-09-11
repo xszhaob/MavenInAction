@@ -1,7 +1,9 @@
 package com.bo.zhao.maven.inaction.helloworld;
 
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 /**
- * ÎÄ¼þÃèÊö£º
+ * ?????????
  *
  * @author Bo.Zhao
  * @version 3.0
@@ -9,6 +11,8 @@ package com.bo.zhao.maven.inaction.helloworld;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello Maven");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-core.xml");
+        ResourceFilter resourceFilter = context.getBean("resourceFilter", ResourceFilter.class);
+        System.out.println(resourceFilter.getDebug());
     }
 }
